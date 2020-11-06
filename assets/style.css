@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap');
+
+* {
+	margin: 0%;
+	padding: 0%;
+  font-family: 'Fira Code', monospace;
+}
+
+body {
+  background-color: rgb(17, 17, 17);
+}
+
+.content {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	text-align: center;
+	transform: translate(-50%, -50%);
+}
+
+.content h3 {
+	color: #07B919;
+	font-size: 20px;
+}
+
+.content .title {
+	font-family: 'Libre Barcode 39 Text', cursive;
+	font-size: 90px;
+}
