@@ -9,7 +9,17 @@
 
 body {
   background-color: rgb(17, 17, 17);
+  overflow:auto;
+
+  /* Hide scrollbar for IE, Edge and Firefox */
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
 }
+body::-webkit-scrollbar { /* Hide Scrollbar */
+  display: none;
+}
+
+
 
 .content {
 	position: absolute;
@@ -23,8 +33,57 @@ body {
 	color: #07B919;
 	font-size: 20px;
 }
-
+.marq{
+	color: #07B919;
+}
 .content .title {
 	font-family: 'Libre Barcode 39 Text', cursive;
 	font-size: 90px;
+}
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: #07B919;
+  display: inline-block;
+  height: 2.8rem;            /* Footer height */
+}
+.links{
+	color: #07B919;
+	display: inline-block;
+	text-decoration: none;
+}
+a:link {
+  color: #07B919;;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #058310;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: #4DD18A;
+  background-color: transparent;
+  text-decoration: none;
+}
+p:not(.phrase){
+	color: #07B919;
+ 	position: absolute;
+    width: 500px;
+    height: 500px;
+    top: 50%;
+    text-align: center;
+    left: 50%;
+    margin-left: -50px; /* margin is -0.5 * dimension */
+    margin-top: -25px; 
 }
