@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap');
 
 * {
-	margin: 0%;
-	padding: 0%;
+  margin: 0%;
+  padding: 0%;
   font-family: 'Fira Code', monospace;
 }
 
@@ -13,10 +13,10 @@ body {
 
   /* Hide scrollbar for IE, Edge and Firefox */
   -ms-overflow-style: none;  /* IE and Edge */
-  scrollbar-width: none;  /* Firefox */
+   scrollbar-width: none;  /* Firefox */
 }
 body::-webkit-scrollbar { /* Hide Scrollbar */
-  display: none;
+   display: none;
 }
 
 
@@ -41,12 +41,12 @@ body::-webkit-scrollbar { /* Hide Scrollbar */
 	font-size: 90px;
 }
 #footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  color: #07B919;
-  display: inline-block;
-  height: 2.8rem;            /* Footer height */
+  	position: fixed;
+  	bottom: 0;
+  	width: 100%;
+  	color: #07B919;
+  	display: inline-block;
+  	height: 2.8rem;            /* Footer height */
 }
 .links{
 	color: #07B919;
@@ -54,27 +54,27 @@ body::-webkit-scrollbar { /* Hide Scrollbar */
 	text-decoration: none;
 }
 a:link {
-  color: #07B919;;
-  background-color: transparent;
-  text-decoration: none;
+  	color: #07B919;;
+  	background-color: transparent;
+  	text-decoration: none;
 }
 
 a:visited {
-  color: #058310;
-  background-color: transparent;
-  text-decoration: none;
+  	color: #058310;
+  	background-color: transparent;
+  	text-decoration: none;
 }
 
 a:hover {
-  color: green;
-  background-color: transparent;
-  text-decoration: none;
+  	color: green;
+  	background-color: transparent;
+  	text-decoration: none;
 }
 
 a:active {
-  color: #4DD18A;
-  background-color: transparent;
-  text-decoration: none;
+  	color: #4DD18A;
+  	background-color: transparent;
+  	text-decoration: none;
 }
 p:not(.phrase){
 	color: #07B919;
