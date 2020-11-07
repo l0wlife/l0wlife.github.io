@@ -2,25 +2,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap');
 
 * {
-  margin: 0%;
-  padding: 0%;
-  font-family: 'Fira Code', monospace;
+ 	margin: 0%;
+  	padding: 0%;
+  	font-family: 'Fira Code', monospace;
 }
 
 body {
-  background-color: rgb(17, 17, 17);
-  overflow:auto;
+  	background-color: rgb(17, 17, 17);
+  	overflow:auto;
 
   /* Hide scrollbar for IE, Edge and Firefox */
-  -ms-overflow-style: none;  /* IE and Edge */
-   scrollbar-width: none;  /* Firefox */
+  	-ms-overflow-style: none;  /* IE and Edge */
+   	scrollbar-width: none;  /* Firefox */
 }
 body::-webkit-scrollbar { /* Hide Scrollbar */
-   display: none;
+   	display: none;
 }
-
-
-
 .content {
 	position: absolute;
 	top: 50%;
